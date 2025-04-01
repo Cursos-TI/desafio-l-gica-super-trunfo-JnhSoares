@@ -81,7 +81,7 @@ printf("Número de Pontos Turísticos: %d\n", pontos2);
 //Comparação de cartas (Atributo: População)
 
 if(populacao1 > populacao2) {
-    printf("Resultado: %s tem a maior população. Carta 1 venceu!\n", cidade1); }
+    printf("Resultado: %s tem a maior população.\nCarta 1 venceu!\n", cidade1); }
 else{
     printf("Resultado: %s tem a maior população.\nCarta 2 venceu!\n", cidade2); }
 
