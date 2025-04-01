@@ -16,7 +16,7 @@ printf("Carta 1\n");
 printf("Digite a letra do estado: ");
 scanf(" %c", &estado1);
 
-printf("Digite o código: ");
+printf("Digite o código da cidade: ");
 scanf("%s", &codigo1);
 
 printf("Digite o nome da cidade: ");
@@ -50,7 +50,7 @@ printf("Carta 2\n");
 printf("Digite a letra do estado: ");
 scanf(" %c", &estado2);
 
-printf("Digite o código: ");
+printf("Digite o código da cidade: ");
 scanf("%s", &codigo2);
 
 printf("Digite o nome da cidade: ");
@@ -83,7 +83,7 @@ printf("Número de Pontos Turísticos: %d\n", pontos2);
 if(populacao1 > populacao2) {
     printf("Resultado: %s tem a maior população. Carta 1 venceu!\n", cidade1); }
 else{
-    printf("Resultado: %s tem a maior população. Carta 2 venceu!\n", cidade2); }
+    printf("Resultado: %s tem a maior população.\nCarta 2 venceu!\n", cidade2); }
 
 return 0;
 
